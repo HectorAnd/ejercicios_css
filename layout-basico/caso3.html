@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio 3</title>
+		<style>
+			.bolas_billar{
+				display: block
+			}
+			#bola7{
+				position: fixed;
+				top: 0px;
+				/*left: 0px;*/
+			}
+			#bola8{
+			    margin-top: 170px;
+			}
+			/*#extra
+			{
+				visibility: hidden;
+			}*/
+		</style>
+	</head>
+	<body>
+		<img id="bola7" class="bolas_billar" src="./images/bola7.jpeg" alt="Bola billar 7" width="210" height="170">	
+		<img id="bola8" class="bolas_billar" src="./images/bola8.jpeg" alt="Bola billar 8" width="210" height="170">
+		<img class="bolas_billar" src="./images/bola9.jpeg" alt="Bola billar 9" width="210" height="170">
+		<img class="bolas_billar" src="./images/bola10.jpeg" alt="Bola billar 10" width="210" height="170">
+		<img class="bolas_billar" src="./images/bola13.jpeg" alt="Bola billar 13" width="210" height="170">
+	</body>
+</html>
+<!-- Al poner la bola 7 con la position en fixed se sale del flujo natural de la página. Es necesario para que la bola8 no aparezca debajo de la 7 podemos hacer un margin-top. Otra posibilidad sería añadir una bola extra justo al comienzo del código con el visibility a hidden, así la bola no se vería pero ocuparía espacio, así la bola 8 no se solaparía con la 7. Un display:none no nos sirve ya que se eliminaría completamente del flujo de la página (no ocuparía espacio-->

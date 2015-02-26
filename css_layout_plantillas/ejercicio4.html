@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Layout a dos columnas con anchura total de 960px y menú
+	derecha con 15%</title>
+
+<style>
+body {margin: 0px;}
+#cabecera {
+	width: 100%;
+	height: 100px;
+	background-color: yellow;;
+
+}
+#menu {
+	width: 200px;
+	height: 300px;
+	background-color: green;
+	float: left;
+	clear:left;
+}
+#contenido {
+	width: 700px;
+	height: 300px;
+	background-color: gray;
+	float: left;
+	margin-left: 10px;
+}
+
+#pie {
+	width: 100%;
+	height: 30px;
+	background-color: orange;
+	float: left;
+	clear: both;
+}
+#contenedor {width: 100%; float:left; background-color:black;}
+</style>
+</head>
+<body>
+	
+	<div id="contenedor">
+		<div id="cabecera">¡Esta es la cabecera</div>
+		<div id="menu">¡Esto es el menú</div>
+		<div id="contenido">¡Esta es el contenido de la web</div>
+		<div id="pie">Pie de página</div>
+	</div>
+</body>
+</html>
